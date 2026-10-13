@@ -1,0 +1,18 @@
+# Dependencies
+node_modules
+
+# Environment files (keep store credentials out of Git)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Editor / OS noise
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
